@@ -1,14 +1,13 @@
 public class Disciplina {
-    private String nome;
-    private int cargaHoraria;
+     String nome;
+     int cargaHoraria;
 
-    // Construtor
+    
     public Disciplina(String nome, int cargaHoraria) {
         this.nome = nome;
         this.cargaHoraria = cargaHoraria;
     }
 
-    // Getters e Setters (opcional)
     public String getNome() {
         return nome;
     }
